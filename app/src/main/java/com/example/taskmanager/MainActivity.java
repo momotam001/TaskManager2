@@ -13,7 +13,7 @@ import androidx.fragment.app.FragmentManager;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity
-        implements SubjectDialogFragment.OnSubjectEnteredListener{
+        implements TaskDialogFragment.OnTaskEnteredListener{
 
     private TaskManager mTaskManager;
     private EditText mItemEditText;
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity
 
         // Add the item to the list and display it
         FragmentManager manager = getSupportFragmentManager();
-        SubjectDialogFragment dialog = new SubjectDialogFragment();
+        TaskDialogFragment dialog = new TaskDialogFragment();
         dialog.show(manager, "subjectDialog");
         }
 

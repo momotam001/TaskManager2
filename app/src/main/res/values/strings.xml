@@ -16,5 +16,8 @@
     <string name="update">Update</string>
     <string name="Task_label">Task Manager</string>
     <string name="subject_exists">The subject "%1$s" already exists.</string>
+    <string name="task">New task?</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
