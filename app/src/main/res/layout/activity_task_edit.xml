@@ -17,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <EditText
-        android:id="@+id/taskText"
+        android:id="@+id/itemText"
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:hint="@string/enter_an_item"

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
-public class SettingsFragment extends PreferenceFragment
+public class settingsFragment extends PreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {
     public static String PREFERENCE_THEME = "pref_theme";
 
@@ -20,7 +20,7 @@ public class SettingsFragment extends PreferenceFragment
         SharedPreferences sharedPrefs =
                 PreferenceManager.getDefaultSharedPreferences(getActivity());
 
-      //  setPrefSummarySubjectOrder(sharedPrefs);
+      // setPrefSummarySubjectOrder(sharedPrefs);
        // setPrefSummaryDefaultQuestion(sharedPrefs);
     }
 

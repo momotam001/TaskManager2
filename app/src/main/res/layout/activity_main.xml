@@ -7,17 +7,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.taskmanager.MainActivity">
 
-    <TextView
-        android:id="@+id/itemList"
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemsRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:scrollbars="vertical"
-        android:textSize="40sp"
-        tools:text="LIST" />
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addSubjectButton"
+        android:id="@+id/addItemButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="addButtonClick"

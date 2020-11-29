@@ -1,4 +1,14 @@
 <resources>
+    <string name="settings">Settings</string>
+    <string name="pref_title_theme">Dark theme</string>
+    <string name="pref_description_theme">Turn on dark theme</string>
+    <string name="pref_title_default_question">Default question</string>
+    <string name="pref_title_subject_order">Subject order</string>
+    <string name="pref_none">None</string>
+    <string name="task_exists">The subject "%1$s" already exists.</string>
+    <string name="update_item">Update Question</string>
+    <string name="add_item">Add Question</string>
+
     <string name="app_name">Task Manager </string>
     <string name="add">Add</string>
     <string name="enter_an_item">Enter an Task</string>
@@ -15,7 +25,7 @@
     <string name="edit">Edit</string>
     <string name="update">Update</string>
     <string name="Task_label">Task Manager</string>
-    <string name="subject_exists">The subject "%1$s" already exists.</string>
+
     <string name="task">New task?</string>
     <string name="create">Create</string>
     <string name="cancel">Cancel</string>
